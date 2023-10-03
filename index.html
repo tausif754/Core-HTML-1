@@ -1,0 +1,104 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core  HTML</title>
+</head>
+<body>
+ <p>
+    <b>This text will be bolderd</b>
+ </p>   
+ <p>
+    <i>This text will be italic</i>
+ </p>
+ <p>
+    <ins>This text will be underlined</ins>
+ </p>
+ <p>
+    <mark>This text will be highlighted</mark>
+ </p>
+ <p>
+    This is normal text<sup>This will be super scripted</sup>This is normal again
+ </p>
+ <p>
+    This is normal text <small>small text</small>
+ </p>
+ <p><del>This text will be deleted</del></p>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Schedule</title>
+
+    <style>
+        tr{
+            background-color: rgb(205, 226, 226);
+             border: solid black;
+        }
+        /* th{
+            border: solid black;
+        }
+        td{
+            border: solid black;
+        }
+        table{
+            border: solid black;
+        } */
+        table{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conference Schedule</h1>
+    
+        <table>
+            <!-- <caption style="border: solid black;">Conference Schedule</caption> -->
+            <tbody>
+                <tr>
+                    <th>Time</th>
+                    <th colspan="2">Room 1</th>
+                    <th>Room 2</th>
+                    <th>Room 3</th>
+                    <th>Room 4</th>
+                </tr>
+                <tr>
+                    <td rowspan="3">9:00 AM-10:00 AM</td>
+                    <td rowspan="2" colspan="2">Keynote</td>
+                    <td>Session A</td>
+                    <td>Session B</td>
+                    <td rowspan="3">Session C</td>
+                </tr>
+                <tr>
+                    <td>Session D</td>
+                    <td>Session E</td>
+                </tr>
+                <tr>
+                    <td colspan="2">10:30 AM-11:30AM</td>
+                    <td colspan="2">Session F</td>
+                </tr>
+                <tr>
+                    <td>12:PM-1:00 PM</td>
+                    <td colspan="6">Lunch Break</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">1:00 PM-2:00 PM</td>
+                    <td colspan="2">Session G</td>
+                    <td rowspan="2">Session H</td>
+                    <td>Session I</td>
+                    <td>session J</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Session K</td>
+                    <td>Session L</td>
+                    <td>Session m</td>
+                </tr>
+            </tbody>
+        </table>
+    </tbody>
+</body>
+</html>
